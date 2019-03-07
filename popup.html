@@ -1,0 +1,45 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>Facebook Dark</title>
+      <link rel="stylesheet" href="./css/popup.css">
+    </head>
+    <body>
+      <p class="desc">Buy me a coffee:</p>
+
+      <!-- Tab links -->
+      <div class="tab">
+        <button class="tablinks active" id="btc" >Bitcoin 
+          <img src="./coins/btc.png" alt="btc" class="icon"/>
+        </button>
+        <button class="tablinks" id="xrp" >Ripple XRP 
+          <img src="./coins/xrp.png" alt="xrp" class="icon"/>
+        </button>
+        <button class="tablinks" id="ltc" >Ethereum 
+          <img src="./coins/eth.png" alt="eth" class="icon"/>
+        </button>
+      </div>
+
+      <!-- Tab content -->
+      <div id="btc-display" class="tabcontent active">
+        <h3 class="coin btc">Bitcoin</h3>
+        <p>38Q6qgmqDYWEQmapx7zSb1PAxZeq6kexyk</p> 
+        <img src='./qr/btc.png' alt='BTC'><br>
+      </div>
+
+      <div id="xrp-display" class="tabcontent">
+        <h3 class="coin xrp">Ripple XRP</h3>
+        <p>rL3eNWJKTnA7ixNoqF4aEGUKS5WAz6Gb8a</p> 
+        <img src='./qr/xrp.png' alt='XRp'><br>
+      </div>
+
+      <div id="ltc-display" class="tabcontent">
+        <h3 class="coin ltc">Ethereum </h3>
+        <p>0x1982198E5a8146B9dECc00effeF458244ef19F58</p>
+        <img src='./qr/eth.png' alt='LTC'>
+      </div>
+      <br/>
+      <button id="end"> On/Off </button>
+    </body>
+    <script src="./addons.js"> </script>
+  </html>

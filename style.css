@@ -1,0 +1,33 @@
+body {
+	background-color: black !important;
+}
+
+#contentCol {
+	background-color: black !important;
+}
+
+.linkWrap {
+	color: white !important;
+}
+
+.selectedItem * {
+	color: black !important;
+}
+
+._2s1x ._2s1y {
+	background-color: #3c3f44 !important;
+	border-bottom: 1px solid #6a6d73 !important;
+}
+
+._2yau, ._2usc, ._6yqi, ._3-8o *, #seo_h1_tag, ._ikh,  #js_5, ._5kx5, ._2pi9, ._1itw, ._14-h {
+	color: white !important;
+}
+
+._2yau:hover, ._2usc:hover, ._ikh:hover, ._k01:hover *, ._1itt *, .sideNavItem:hover *, ._13yj {
+	color: black !important;
+}
+
+
+._703s {
+	border: 1px solid white;
+}

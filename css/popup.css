@@ -1,0 +1,82 @@
+body {
+  width: 300px;
+  text-align: center;
+  background: black;
+  color: white;
+}
+img {
+  width: 120px;
+}
+.coin {
+  font-weight: bolder;
+  font-size: 18px;
+}
+.desc {
+  font-size: 13px;
+  font-weight: bold;
+}
+.ltc {
+  color: gray;
+}
+.btc {
+  color: gold;
+}
+.xrp {
+  color: #07a5f7;
+}
+
+span.icon-btc {
+    background: url(../coins/btc.png) no-repeat left center;
+    width: 15px;
+    height: 15px;
+}
+
+#btc-display {
+  display: block;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 12.5px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
